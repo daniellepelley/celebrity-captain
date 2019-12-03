@@ -1,6 +1,6 @@
 import * as Joi from "joi";
 const schemas = {
-    arrvialPOST: Joi.object().keys({
+    arrivalPOST: Joi.object().keys({
         vessel: Joi.string().required(),
         datetime: Joi.date().required(),
         port: Joi.string().required(),

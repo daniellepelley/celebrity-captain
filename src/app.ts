@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get("/health", (req, res) => res.send("ok"));
-app.post("/arrival", middleware(schemas.arrvialPOST), arrivalController.post);
+app.post("/arrival", middleware(schemas.arrivalPOST), arrivalController.post);
 app.get("/history/:name", historyController.get);
 
 export default app;
