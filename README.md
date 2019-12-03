@@ -21,6 +21,8 @@ I did consider using Lambdas and whereas it does give you massive scalability it
 I've missed out some essential cross cutting concerns such as logging, global error handling, security...I probably would use Open Api but I have used controllers so that would be easy to retrofit.
 
 
+### The application is hosted at http://celebrity-captain.golambda.co.uk
+
 ## POST /arrival
 
 ```
